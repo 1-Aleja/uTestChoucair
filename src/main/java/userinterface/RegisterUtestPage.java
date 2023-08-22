@@ -12,7 +12,7 @@ public class RegisterUtestPage extends PageObject {
     public static final Target SELECT_MONTH = Target.the("where do we select month").located(By.id("birthMonth"));
     public static final Target SELECT_DAY = Target.the("where do select day").located(By.id("birthDay"));
     public static final Target SELECT_YEAR = Target.the("where do we select year").located(By.id("birthYear"));
-    public static final Target NEXT_BUTTON = Target.the("Where do go to next page").located(By.cssSelector("a[href='#']"));
+    public static final Target NEXT_BUTTON = Target.the("Where do go to next page").located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/a"));
     public static final Target INPUT_CITY = Target.the("where do we write city").located(By.id("city"));
     public static final Target INPUT_POSTAL_CODE = Target.the("where do we write postal code").located(By.id("zip")) ;
     public static final Target SELECT_COUNTRY = Target.the("where do we select Country").located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[1]/div[3]/div[1]/div[4]/div[2]/div/div"));
