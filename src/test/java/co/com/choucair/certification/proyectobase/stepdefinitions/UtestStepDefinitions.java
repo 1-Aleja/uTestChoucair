@@ -18,12 +18,12 @@ public class UtestStepDefinitions {
         OnStage.theActorCalled("Maria").wasAbleTo(OpenUp.thePage(), Register.thePage());
 
     }
-    @When("^she completes the registration form with her details$")
-    public void sheCompletesTheRegistrationFormWithHerDetails() {
+    @When("^she registers the data$")
+    public void sheRegistersTheData() {
 
     }
-    @Then("^she should see a registration confirmation message$")
-    public void sheShouldSeeARegistrationConfirmationMessage() {
+    @Then("^she sew completes the record with the button complete setup$")
+    public void sheSewCompletesTheRecordWithTheButtonCompleteSetup() {
     }
 
 }
