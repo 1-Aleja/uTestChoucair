@@ -7,7 +7,7 @@
 
   @scenario1
   Scenario: Search for a automation course
-    Given than Maria wants to learn automation at the academy Choucair
-    When she search for the course Recursos Automatixzacion Bancolombia on the choucair academy platform
-    Then she finds the course called resources Recursos Automatizacion Bancolombia
+    Given Maria wants to register on the Utest platform
+    When she completes the registration form with her details
+    Then she should see a registration confirmation message
 

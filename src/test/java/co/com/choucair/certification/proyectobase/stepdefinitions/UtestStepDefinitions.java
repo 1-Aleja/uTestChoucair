@@ -13,17 +13,17 @@ public class UtestStepDefinitions {
     public void setStage(){
         OnStage.setTheStage(new OnlineCast());
     }
-    @Given("^than Maria wants to learn automation at the academy Choucair$")
-    public void thanMariawantsToLearnAutomationAtTheAcademyChoucair(){
+    @Given("^Maria wants to register on the Utest platform$")
+    public void mariaWantsToRegisterOnTheUtestPlatform() {
         OnStage.theActorCalled("Maria").wasAbleTo(OpenUp.thePage(), Register.thePage());
 
     }
-    @When("^she search for the course Recursos Automatixzacion Bancolombia on the choucair academy platform$")
-    public void sheSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcasdemyPlattform(){
+    @When("^she completes the registration form with her details$")
+    public void sheCompletesTheRegistrationFormWithHerDetails() {
 
     }
-    @Then("^she finds the course called resources Recursos Automatizacion Bancolombia$")
-    public void sheFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(){
+    @Then("^she should see a registration confirmation message$")
+    public void sheShouldSeeARegistrationConfirmationMessage() {
     }
 
 }
