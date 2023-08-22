@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/academyChoucair.feature",
+        features = "src/test/resources/features/register_user.feature",
         tags ="@stories",
         glue ="co.com.choucair.certification.proyectobase.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
